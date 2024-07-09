@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Mera Calculator</title>
+
+<style>
+img{
+height:20%;
+width:20%;
+margin-top:20px;
+}
+
+body{
+text-align:center;
+background:linear-gradient(to right,#2b40ff,#07121a);
+}
+
+h1{
+color:white;
+font-size:50px;
+margin:15px;
+}
+
+input{
+	font-size:20px;
+	border:2px,solid,white;
+	border-radius:10px;
+	color:white;
+	background-color:black;
+	padding:15px;
+	}
+
+button{
+	font-size:30px;
+	color:white;
+	background-color:black;
+	border-radius:10px;
+	margin:40px;
+	padding:15px;
+	border:2px,solid,white;
+}
+
+img:hover{
+-ms-transform:scale(1.1);
+-webkit-transform:scale(1.1);
+transform:scale(1.1);
+}
+
+</style>
+
+</head>
+<body>
+<img src="Images/hello.gif">
+<h1>Hello G, Kya Haal Hai !</h1>
+
+<form action="MyServlet">
+	<input name="num1" placeholder="FirstNumber">
+	<input name="num2" placeholder="SecondNumber">
+	<br>
+	<Button name="btn1" value="1">+</Button>
+	<Button name="btn1" value="2">-</Button>
+	<Button name="btn1" value="3">*</Button>
+	<Button name="btn1" value="4">/</Button>
+</form>
+</body>
+</html>
